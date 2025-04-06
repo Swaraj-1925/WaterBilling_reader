@@ -76,6 +76,12 @@ dependencies {
     // Coil
     implementation (libs.coil.compose)
 
+    //    life Cycle
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+
+    implementation("androidx.compose.material:material-icons-extended:1.7.5")
+
 }
 kapt {
     correctErrorTypes = true
