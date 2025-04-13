@@ -79,8 +79,15 @@ dependencies {
     //    life Cycle
     implementation (libs.androidx.lifecycle.viewmodel.compose)
     implementation (libs.androidx.lifecycle.viewmodel.ktx)
+//    runtimeOnly("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
 
-    implementation("androidx.compose.material:material-icons-extended:1.7.5")
+    implementation(libs.androidx.material.icons.extended)
+
+    implementation (libs.androidx.security.crypto)
+
+
+    implementation("com.vanniktech:android-image-cropper:4.5.0")
+
 
 }
 kapt {
